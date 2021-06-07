@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="logo/favicon.ico">
+    <title>DoubleDev</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen" />
+</head>
+
+<body>
+    <div id="fb-root"></div>
+    <script src="js/handlerInstagram.js"></script>
+    <script>
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = 'https://connect.facebook.net/nl_NL/sdk.js#xfbml=1&version=v3.2';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+
+    </script>
+    <!-- 
+   
+    Navigation
+   
+    -->
+    <div class="navbar-fixed">
+        <nav class="white">
+            <div class="nav-wrapper container">
+                <a tabindex="-1" id="logo-container" href="#" class="brand-logo center"><img src="logo/logo.svg" alt="Logo van ons bedrijf, Double Dev" style="width: 70%; margin-top: 10px;" /></a>
+                <ul class="hide-on-med-and-down right">
+                    <li><a href="#developers">Developers</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#social">Social</a></li>
+                </ul>
+                <a href="#" data-target="nav-mobile" id="open_sidenav" class="sidenav-trigger orange-text text-darken-3 right"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="sidenav">
+                    <li><a href="#developers" tabindex="-1">Developers</a></li>
+                    <li><a href="#portfolio" tabindex="-1">Portfolio</a></li>
+                    <li><a href="#social" tabindex="-1">Social</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- 
+   
+    Header
+   
+    -->
+    <div id="index-banner" class="parallax-container">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <br><br>
+                <h1 class="header center light">Double Dev</h1>
+                <div class="row center">
+                    <h5 class="header col s12 light">Double as fast, double as efficient, double your money's worth!</h5>
+                </div>
+            </div>
+        </div>
+        <div class="parallax"><img src="img/backgrounds/background1.jpg" alt="First background picture"></div>
+    </div>
+    <!-- 
+   
+    Why choose us?
+   
+    -->
+    <div class="container z-depth-5">
+        <div class="section">
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h2 class="center orange-text text-darken-3"><i class="material-icons">shutter_speed</i></h2>
+                        <h5 class="center">Double the speed</h5>
+
+                        <p class="light">Your website needs to go online as fast as possible. Luckily, we're ready to get stuff done in any time limit.</p>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h2 class="center orange-text text-darken-3"><i class="material-icons">accessibility_new</i></h2>
+                        <h5 class="center">Double the care</h5>
+
+                        <p class="light">Our projects are not just coded and designed with the future in mind, but are user-friendly, W3 validated and accessible for everyone.</p>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h2 class="center orange-text text-darken-3"><i class="material-icons">money</i></h2>
+                        <h5 class="center">Double the value</h5>
+
+                        <p class="light">Why should you pay top dollar for someone who'll use an overkill Wordpress template? We'll build the website with technology that best fits your vision and ideas, with pricing that is actually fair.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 
+   
+    Developers
+   
+    -->
+    <div id="developers" class="container" style="padding-top: 20px;">
+        <div class="section">
+            <div class="row">
+                <div class="col s12 center">
+                    <!-- Empty spans are used to scroll to from the developer list in footer -->
+                    <div class="dev_scroll"><span id="simon"></span><span id="ramon"></span></div>
+                    <h3><i class="mdi-content-send elegant-color-text">Developers</i></h3>
+                    <div class="row">
+                        <div class="card col offset-m1 m4 s12 center" id="card_simon">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="img/developers/simon_duchateau.jpg" alt="Picture of programmer Simon Duchateau">
+                            </div>
+                            <div class="card-content">
+                                <a href="#simon" title="Click here for more info about me!" class="card-title activator grey-text text-darken-4" id="activator_simon">Simon Duchateau</a>
+                                <p><a class="center" href="https://kialan.be/home" target="_blank">Kialan</a></p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Simon Duchateau<i class="material-icons right dev_close"><a class="grey-text text-darken-4" tabindex="-1">close</a></i></span>
+                                <p>ialan is one of our previous projects, we were helping others with this project in KTA1 Hasselt. This was a LAN Party which we hosted and made a website for.</p>
+                            </div>
+                        </div>
+                        <div class="card col s12 m4 offset-m2" id="card_ramon">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="img/developers/ramon_craeghs.jpg" alt="Picture of designer Ramon Craeghs">
+                            </div>
+                            <div class="card-content">
+                                <a href="#ramon" title="Click here for more info about me!" class="card-title activator grey-text text-darken-4" id="activator_ramon">Ramon Craeghs</a>
+                                <!-- Empty spans are used to scroll to from the developer list in footer -->
+                                <div class="dev_scroll"><span id="cody"></span><span id="stijn"></span></div>
+                                <p><a class="center" href="http://www.rccreations.be/" target="_blank">Rccreations</a></p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Ramon Craeghs<i class="material-icons right dev_close"><a class="grey-text text-darken-4" tabindex="-1">close</a></i></span>
+                                <p>Rccreations is a website I made for my end project in high school where I Introduce myself and all of my skills. <br>
+                                    Such as Html, Css, Photoshop, Illustrator,... <br>
+                                    There are also many examples of my work that I made while I was in highschool</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+
+                        <div class="card col offset-m1 m4 s12 center" id="card_cody">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="img/developers/cody_volz.jpg" alt="Picture of programmer Cody Volz">
+                            </div>
+                            <div class="card-content">
+                                <a href="#cody" title="Click here for more info about me!" class="card-title activator grey-text text-darken-4" id="activator_cody">Cody Volz</a>
+                                <p><a class="center" href="https://kialan.be/home" target="_blank">Kialan</a></p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Cody Volz<i class="material-icons right dev_close"><a class="grey-text text-darken-4" tabindex="-1">close</a></i></span>
+                                <p>Since I was little I loved everything that had to do with IT. Since the 5th grade I finally got to study IT.</p>
+                                <p>I've learned and develop a lot over the years, C# is still the language I love the most, But I've also learned Python, Android and of course webdesign which reaches from HTML and CSS to JS and PHP.</p>
+                            </div>
+                        </div>
+
+                        <div class="card col s12 m4 offset-m2" id="card_stijn">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="img/developers/stijn_catry.jpg" alt="Picture of programmer Stijn Catry">
+                            </div>
+                            <div class="card-content">
+                                <a href="#stijn" title="Click here for more info about me!" class="card-title activator grey-text text-darken-4" id="activator_stijn">Stijn Catry</a>
+                                <p><a class="center" href="https://discat.website/" target="_blank">Discat</a></p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Stijn Catry<i class="material-icons right dev_close"><a class="grey-text text-darken-4" tabindex="-1">close</a></i></span>
+                                <p>My expertise ranges from HTML/CSS/JS and Node.JS, all the way to Python, C# and Java.<br>
+                                    With those languages I develop websites, back-ends, Windows programs, multi-platform desktop applications and Android apps.<br><br>
+                                    I can also single handedly eat an entire dessert buffet.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 
+   
+    Banner
+   
+    -->
+    <div class="parallax-container valign-wrapper">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <div class="row center">
+                    <h5 class="header col s12 light">Contact us anytime. We will do all the coding<br>so that you focus on what you love to do!</h5>
+                </div>
+            </div>
+        </div>
+        <div class="parallax"><img src="img/backgrounds/background2.jpg" alt="Second background picture"></div>
+    </div>
+    <!-- 
+   
+    Portfolio
+   
+    -->
+    <div id="portfolio" class="container" style="padding-top: 20px;">
+        <br>
+        <div class="section">
+            <div class="row">
+                <div class="col s12 offset-m1 m10 offset-l2 l8 center">
+                    <h3><i class="mdi-content-send elegant-color-text">Portfolio</i></h3>
+                    <div class="row flex">
+                        <div class="col s12 m6 flex">
+                            <div class="card">
+                                <div class="card-image">
+                                    <a href="../hgh/index.html"><img src="img/portfolio/het_gouden_hart.jpg" alt="Logo from Het Gouden Hart"/></a>
+                                    <a class="btn-floating halfway-fab waves-effect waves-light orange darken-3" href="../hgh/index.html" target="_blank"><i class="material-icons">play_arrow</i></a>
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title elegant-color-text">Het Gouden Hart</span>
+                                    <p>When we got the oppurtunity to have our first school project to be something meaningful, we jumped to it. This is the website we developed for the non-profit "Het Gouden Hart!"</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m6 flex">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="img/portfolio/kialan.jpg" alt="Logo from Kialan">
+                                    <a class="btn-floating halfway-fab waves-effect waves-light orange darken-3" href="http://kialan.be" target="_blank"><i class="material-icons">play_arrow</i></a>
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title elegant-color-text">Kialan</span>
+                                    <p>Kialan is one of our previous projects, we were helping others with this project in KTA1 Hasselt. This was a LAN Party which we hosted and made a website for.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 
+   
+    Social Media
+   
+    -->
+    <div id="social" class="container" style="padding-top: 20px;">
+        <br>
+        <div class="section">
+            <div class="row">
+                <div class="col s12 m12 center">
+                    <div class="row flex">
+                        <div id="instagram-container" class="col s12 m12 l6 center">
+                            <div class="z-depth-2" style="margin: auto; min-width: 180px; max-width: 500px">
+                                <blockquote class="instagram-media center" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/Bs-24c9n-TH/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_script" data-instgrm-version="10" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+                                    <div style="padding:16px;"> <a href="https://www.instagram.com/p/Bs-24c9n-TH/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_script" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank">
+                                            <div style=" display: flex; flex-direction: row; align-items: center;">
+                                                <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div>
+                                                <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;">
+                                                    <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div>
+                                                    <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div>
+                                                </div>
+                                            </div>
+                                            <div style="padding: 19% 0;"></div>
+                                            <div style=" display:block; height:60px; margin:0 auto 16px; width:210px;"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 840 300" width="210">
+                                                    <path d="M65 49c-16 7-34 26-40 50-7 31 23 44 25 39 3-5-5-6-7-22-2-21 7-43 19-53 3-2 2 0 2 5v102c0 21-1 28-3 35-1 7-4 11-2 13s12-3 17-10c7-9 9-20 10-32v-51-68c0-5-14-11-21-8m575 102c0 11-3 20-6 26-6 12-18 16-23-1-3-10-4-26-1-39 2-13 8-23 17-22 10 0 14 13 13 36zm-162 70c0 19-3 35-9 40-9 7-21 1-19-12 2-12 13-25 28-40v12zm-2-70c-1 10-4 20-6 26-6 12-19 16-24-1-4-12-3-28-1-37 2-13 8-24 18-24 9 0 14 10 13 36zm-94-1c-1 11-3 20-6 27-7 12-19 16-24-1-4-13-3-30-1-39 2-14 8-23 18-22 9 0 14 13 13 35zm430 13c-2 0-3 3-4 7-3 14-6 17-10 17-5 0-9-7-10-21v-52c0-4-1-8-12-12-5-2-12-4-15 4a209 209 0 0 0-15 50c-1-6-2-17-2-41-1-4-1-8-7-11-3-2-13-6-16-2s-7 13-11 25l-5 15v-34c0-4-2-5-3-5l-12-3c-4 0-5 2-5 5v58c-2 11-8 25-15 25s-10-6-10-33l1-34v-13c0-3-6-5-9-5l-7-1c-2 0-4 2-4 4v4c-4-6-10-9-13-10-10-3-21-1-29 10-6 9-10 19-11 33-2 11-1 22 1 31-3 10-7 14-12 14-7 0-12-11-11-31 0-13 3-22 6-35 1-6 0-8-3-11-2-3-7-4-13-3l-19 4 1-4c2-15-14-14-19-9-3 3-5 6-6 12-1 9 7 13 7 13a139 139 0 0 1-24 51 1390 1390 0 0 1 0-54l1-12c0-3-2-4-5-5l-9-2c-5-1-7 2-7 4v4c-4-6-9-9-13-10-10-3-21-1-29 10-6 9-10 21-11 33v29c-1 8-6 16-11 16-7 0-10-6-10-33v-34l1-13c0-3-6-5-9-5l-8-1c-2 0-4 2-4 4v4c-4-6-9-9-13-10-10-3-20-1-28 10-6 7-10 15-12 33l-1 15c-2 12-11 27-19 27-4 0-8-9-8-27l1-62h27c3 0 6-12 3-13l-16-1-13-1 1-25c0-2-3-4-4-4l-11-3c-5-1-8 0-8 4l-1 27-21-1c-4 0-8 16-3 16l23 1-1 46v3c-3 19-16 29-16 29 3-12-3-22-13-30l-20-15s5-4 9-14c3-7 3-14-4-16-12-3-22 6-25 16-3 7-2 13 3 18l1 2-10 18c-9 15-15 28-21 28-4 0-4-13-4-24l2-41c0-5-3-8-7-11-3-2-8-5-11-5-5 0-19 1-33 39l-5 14 1-46-2-3c-2-1-8-4-14-4-2 0-3 1-3 4l-1 72 1 15 2 6 5 3c2 0 12 2 13-2 0-5 0-10 6-30 8-30 20-45 25-50h2l-2 38c-1 37 6 44 16 44 7 0 18-7 29-26l19-32 11 11c9 8 12 16 10 24-2 6-7 12-17 6l-7-5h-6c-3 3-6 6-7 11-1 4 3 6 8 8 4 2 12 3 17 4 21 0 37-10 49-38 2 24 11 37 26 37 10 0 20-13 25-26 1 6 3 10 6 14 11 19 34 15 46-1l4-7c1 15 13 20 20 20 8 0 16-3 21-16l3 4c11 19 34 15 46-1l1-2v10l-10 9c-18 16-31 29-32 43-2 18 13 25 24 26 12 1 22-6 29-15 5-8 9-25 9-43l-1-25a200 200 0 0 0 38-66h14c2 0 2 0 2 2s-9 34-1 55c5 15 17 19 24 19 8 0 16-6 20-15l1 3c12 19 35 15 46-1l4-7c3 16 15 20 22 20s14-3 19-16l1 12 4 3c7 2 13 1 16 1 2-1 3-2 3-6 1-9 0-25 3-36 5-20 9-27 11-31 2-2 3-2 3 0l2 35c1 13 3 21 5 23 4 7 8 8 12 8 3 0 8-1 8-5 0-3 0-16 5-35 3-13 8-24 10-28a252 252 0 0 0 3 52c5 21 18 23 23 23 11 0 19-7 22-28 0-5-1-9-4-9" fill="#262626" /></svg></div>
+                                            <div style="padding-top: 8px;">
+                                                <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:500; line-height:18px;"> Dit bericht bekijken op Instagram</div>
+                                            </div>
+                                            <div style="padding: 12.5% 0;"></div>
+                                            <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;">
+                                                <div>
+                                                    <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div>
+                                                    <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div>
+                                                    <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div>
+                                                </div>
+                                                <div style="margin-left: 8px;">
+                                                    <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div>
+                                                    <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div>
+                                                </div>
+                                                <div style="margin-left: auto;">
+                                                    <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div>
+                                                    <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div>
+                                                    <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/Bs-24c9n-TH/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_script" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">The day after #bluemonday</a></p>
+                                        <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">Een bericht gedeeld door <a href="https://www.instagram.com/charlotte_leblanc/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_script" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;" target="_blank"> Double Dev</a> (@doubledevweb) op <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2019-01-23T15:30:04+00:00">23 Jan 2019 om 7:30 (PST)</time></p>
+                                    </div>
+                                </blockquote>
+                            </div>
+                            <script async src="//www.instagram.com/embed.js" onload="set_instagram_iframe_attributes();"></script>
+                        </div>
+                        
+                        <div id="facebook-container" class="col s12 l6 center">
+                            <div id="facebook-loading">
+                                <div class="preloader-wrapper big active">
+                                    <div class="spinner-layer spinner-blue">
+                                      <div class="circle-clipper left">
+                                        <div class="circle"></div>
+                                      </div><div class="gap-patch">
+                                        <div class="circle"></div>
+                                      </div><div class="circle-clipper right">
+                                        <div class="circle"></div>
+                                      </div>
+                                    </div>
+                              
+                                    <div class="spinner-layer spinner-red">
+                                      <div class="circle-clipper left">
+                                        <div class="circle"></div>
+                                      </div><div class="gap-patch">
+                                        <div class="circle"></div>
+                                      </div><div class="circle-clipper right">
+                                        <div class="circle"></div>
+                                      </div>
+                                    </div>
+                              
+                                    <div class="spinner-layer spinner-yellow">
+                                      <div class="circle-clipper left">
+                                        <div class="circle"></div>
+                                      </div><div class="gap-patch">
+                                        <div class="circle"></div>
+                                      </div><div class="circle-clipper right">
+                                        <div class="circle"></div>
+                                      </div>
+                                    </div>
+                              
+                                    <div class="spinner-layer spinner-green">
+                                      <div class="circle-clipper left">
+                                        <div class="circle"></div>
+                                      </div><div class="gap-patch">
+                                        <div class="circle"></div>
+                                      </div><div class="circle-clipper right">
+                                        <div class="circle"></div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  
+                            </div>
+                            <div id="facebook-plugin">
+                                <div style="margin: auto; min-width: 180px; max-width: 500px">
+                                    <div class="fb-page" data-href="https://www.facebook.com/Double-Dev-297059091163262" data-tabs="timeline" data-small-header="false" data-hide-cover="false" data-show-facepile="true">
+                                        <blockquote cite="https://www.facebook.com/Double-Dev-297059091163262/?view_public_for=297059091163262" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Double-Dev-297059091163262">Double Dev</a></blockquote>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 
+   
+    Footer
+   
+    -->
+    <footer class="page-footer elegant-color">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">About us</h5>
+                    <p class="grey-text text-lighten-4">We're a bunch of college students that strive to create amazing websites and applications.</p>
+                </div>
+                <div class="col l3 s12">
+                    <h5 class="white-text">Developers</h5>
+                    <ul id="dev_links">
+                        <li><a class="white-text" href="#simon" id="link_simon">Simon Duchateau</a></li>
+                        <li><a class="white-text" href="#ramon" id="link_ramon">Ramon Craeghs</a></li>
+                        <li><a class="white-text" href="#stijn" id="link_stijn">Stijn Catry</a></li>
+                        <li><a class="white-text" href="#cody" id="link_cody">Cody Volz</a></li>
+                    </ul>
+                </div>
+                <div class="col l3 s12">
+                    <h5 class="white-text">Portfolio</h5>
+                    <ul>
+                        <li><a class="white-text" href="../hgh/index.html" target="_blank">Het Gouden Hart</a></li>
+                        <li><a class="white-text" href="http://www.kialan.be" target="_blank">Kialan</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                &copy; 2019 Double Dev
+            </div>
+        </div>
+    </footer>
+    <!--  
+    
+    Scripts
+    
+    -->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+    <script src="js/handlerDevCards.js"></script>
+    <script src="js/handlerTabindex.js"></script>
+    <!--<script src="js/handlerFacebook.js"></script>-->
+</body>
+
+</html>
